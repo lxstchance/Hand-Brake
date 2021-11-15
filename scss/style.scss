@@ -41,6 +41,9 @@
     display: flex;
     margin-left: auto;
   }
+  &__list-btn{
+    display: none;
+  }
   &__list-link{
     color: #25468A;
     font-family: 'Roboto', sans-serif;
@@ -283,3 +286,5 @@
 .white{
   color: #fff;
 }
+
+@import 'media';
